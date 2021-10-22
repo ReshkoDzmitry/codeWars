@@ -1,5 +1,10 @@
-function century(year) {
-    return Math.floor((year-1)/100) + 1;
+function squareSum(numbers){
+    let out = 0;
+  
+      for (let i = 0; i < numbers.length; i++) {
+          out += numbers[i]*numbers[i];
+    }
+    return (out);
 }
 
-console.log(century(1990));
+console.log(squareSum([1,2,2]));
