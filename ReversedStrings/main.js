@@ -5,4 +5,4 @@ function solution(str){
       return (arr);
 }
 
-console.log(solution("world"));
+console.log(solution("Hello World"));
