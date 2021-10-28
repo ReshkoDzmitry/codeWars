@@ -12,3 +12,4 @@ function makeNegative(num) {
 }
 
 console.log(makeNegative(0.12));
+console.log(makeNegative(-5));
