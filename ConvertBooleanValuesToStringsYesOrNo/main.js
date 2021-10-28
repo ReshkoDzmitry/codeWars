@@ -7,4 +7,4 @@ function boolToWord( bool ){
     }
 }
 
-console.log(boolToWord(false));
+console.log(boolToWord(true));
