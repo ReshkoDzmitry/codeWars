@@ -1,10 +1,14 @@
-function squareSum(numbers){
-    let out = 0;
-  
-      for (let i = 0; i < numbers.length; i++) {
-          out += numbers[i]*numbers[i];
-    }
-    return (out);
+function makeNegative(num) {
+    let oppos = 0;
+      
+      if (num > 0) {
+          oppos = num - num * 2;
+          return (oppos);
+      }
+      else {
+          oppos = num;
+          return (num);
+        }
 }
 
-console.log(squareSum([1,2,2]));
+console.log(makeNegative(0.12));
